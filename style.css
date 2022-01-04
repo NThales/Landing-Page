@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000080 16.62%, #4169E1 85.61%);
+}
+
+.headerContainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerImg{
+    height: 72px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.headerMenu{
+    display: flex;
+    gap:32px;
+}
+
+.headerItem{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mainContainer{
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px;
+}
+
+.mainSection{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainTxt{
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.mainTitle{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7
+}
+
+.mainSubtitle{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#fff2e7
+}
+
+.mainBtn{
+    background-color: #fff2e7;
+    width: 180px;
+    height: 60;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#000080;
+}
+
+.mainImg{
+    height: 430px;
+    border-radius: 50%;
+    margin-top: 32px;
+}
+
+.infoContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    gap:24px;
+}
+
+.infoTitle{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.infoTxt{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#fff2e7;
+}
+
+.footer{
+    padding:32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.footerTxt{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2ef;
+    text-align: center;
+}
